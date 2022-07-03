@@ -1,0 +1,378 @@
+@import "./reset.css";
+@import "./vars.scss";
+
+.svg-sprite {
+  display: none;
+}
+
+body {
+  background-image: url("../img/circle-1.png"), url("../img/circle-1.webp"),
+    url("../img/circle-2.png"), url("../img/circle-2.webp");
+
+  background-position: -681px -198px, -681px -198px, 1879px 384.51px,
+    1879px 384.51px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+.wrapper {
+  width: 1530px;
+  margin: 0 auto;
+  padding-top: 23px;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+
+  .header {
+    height: 92px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 68px;
+    align-items: center;
+
+    .header__logo {
+      width: 61px;
+      height: 31px;
+      background-image: url("../img/logo-logo.png");
+      background-image: url("../img/logo-logo.webp");
+      @include contain-no-repeat;
+    }
+
+    .header__stat4market {
+      margin-left: 19px;
+      width: 162px;
+      height: 21px;
+      background-image: url("../img/logo-stat4market.png");
+      background-image: url("../img/logo-stat4market.webp");
+      @include contain-no-repeat;
+    }
+
+    .header__divider {
+      height: 80px;
+      width: 1px;
+      background-color: #978a95;
+      margin-left: 19px;
+    }
+
+    .header__site-description {
+      display: flex;
+      flex-grow: 1;
+      align-items: center;
+      @include font-settings(normal, 400, 14px, 18px);
+      color: $main-black;
+      margin-left: 25px;
+
+      .header__site-description-inner {
+        width: 185px;
+      }
+    }
+
+    .header__menu {
+      display: flex;
+      align-items: center;
+      @include font-settings(normal, 400, 24px, 35px);
+      gap: 50px;
+      margin-left: 40px;
+
+      .header__submenu,
+      .header__menu-link {
+        @include transition-color;
+      }
+
+      .header__menu-link {
+        color: $main-black;
+        text-decoration: none;
+      }
+
+      .header__submenu {
+        position: relative;
+        cursor: pointer;
+
+        .header__submenu-carret {
+          margin-left: 11px;
+          width: 12px;
+          height: 13px;
+          position: relative;
+          top: 2px;
+          transition: fill 0.2s linear;
+          &:hover {
+            fill: $pink;
+          }
+        }
+      }
+    }
+
+    .header__phone {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      gap: 16px;
+      margin-left: 212px;
+      transition: color 0.2s linear, fill 0.2s linear;
+
+      .header__phone-ico {
+        fill: $main-black;
+        width: 24px;
+        height: 24px;
+        transition: fill 0.2s linear;
+      }
+
+      .header__phone-number {
+        @include font-settings(normal, 400, 24px, 35px);
+        color: $main-black;
+        transition: color 0.2s linear;
+      }
+
+      &:hover .header__phone-ico,
+      &:hover .header__phone-number {
+        fill: $pink;
+        color: $pink;
+      }
+    }
+
+    .header__login-button {
+      margin-left: 91px;
+      background: $pink;
+      color: #fff;
+      border-radius: 12px;
+      border: none;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 11px 32px;
+      cursor: pointer;
+
+      .header__button-ico {
+        width: 23px;
+        height: 23px;
+        fill: #fff;
+      }
+
+      .header__button-caption {
+        @include font-settings(normal, 500, 23px, 35px);
+      }
+
+      &:hover {
+        box-shadow: 0 0 5px $pink;
+      }
+    }
+
+    .header__burger-menu {
+      display: none;
+    }
+  }
+
+  .breadcrumbs {
+    margin-bottom: 15px;
+    @include font-settings(normal, 400, 16px, 19px);
+    color: #978a95;
+
+    .breadcrumbs__link {
+      text-decoration: none;
+      color: #978a95;
+      transition: color 0.3s linear;
+
+      &:hover {
+        color: $pink;
+      }
+    }
+  }
+
+  .pink-text {
+    color: $pink;
+  }
+
+  .page-section {
+    color: $main-black;
+    position: relative;
+    margin-bottom: 147px;
+
+    .page-section__h1,
+    .page-section__h1--shrink-width {
+      @include font-settings(normal, 700, 56px, 80px);
+      margin-bottom: 26px;
+    }
+
+    .page-section__h1--shrink-width {
+      width: 880px;
+    }
+
+    .page-section__course-price {
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .page-section__wallet-ico {
+        fill: $pink;
+        width: 48px;
+        height: 48px;
+      }
+
+      .page-section__start-price,
+      .page-section__start-price-value {
+        @include font-settings(normal, 600, 20px, 55px);
+        text-transform: uppercase;
+      }
+
+      .page-section__start-price-value {
+        font-size: 38px;
+      }
+
+      .page-section__course-price-rouble-char {
+        @include font-settings(normal, 400, 30px, 29px);
+      }
+    }
+
+    .page-section__about-courses {
+      width: 868px;
+      @include font-settings(normal, 400, 25px, 160%);
+
+      .page-section__course-paragraph {
+        margin-bottom: 15px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .page-section__superman {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 620px;
+      height: 605px;
+      background-image: url("../img/superman-with-stars.png");
+      background-image: url("../img/superman-with-stars.webp");
+      @include contain-no-repeat;
+    }
+
+    .page-section__h2,
+    .page-section__h2--narrow,
+    .page-section__h2-sales-study {
+      @include font-settings(normal, 700, 48px, 64px);
+      margin-bottom: 85px;
+    }
+
+    .page-section__h2--narrow,
+    .page-section__h2-sales-study {
+      width: 844px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .page-section__h2-sales-study {
+      // width: 679px;
+      margin-bottom: 54px;
+
+      .page-section__styled-underline {
+        position: relative;
+        display: inline-block;
+
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 7px;
+          background: linear-gradient(264.91deg, #7c4eab 0.73%, #dd51d4 95.85%);
+          border-radius: 5px;
+          transform: rotateY(0);
+          transition: transform 1s ease-in-out;
+        }
+
+        &:hover:after {
+          transform: rotateY(180deg);
+        }
+      }
+    }
+
+    .page-section__narrow-part {
+      width: 1320px;
+      margin: 0 auto;
+
+      .page-section__narrow-part-row {
+        display: flex;
+        align-items: center;
+        gap: 80px;
+
+        .page-section__tablet,
+        .page-section__notebook {
+          background-image: url("../img/tablet.png");
+          background-image: url("../img/tablet.webp");
+          @include contain-no-repeat;
+          width: 456px;
+          height: 469px;
+        }
+
+        .page-section__notebook {
+          width: 474px;
+          height: 474px;
+          background-image: url("../img/notebook.png");
+          background-image: url("../img/notebook.webp");
+          order: 1;
+        }
+
+        .page-section__regular-text,
+        .page-section__regular-text--narrow {
+          @include font-settings(normal, 400, 25px, 160%);
+
+          .page-section__paragraph {
+            margin-bottom: 15px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        .page-section__regular-text--narrow {
+          width: 750px;
+        }
+      }
+    }
+
+    .page-section__study-thesis {
+      @include font-settings(normal, 400, 25px, 160%);
+      width: 846px;
+      margin: 0 auto 85px;
+      text-align: center;
+    }
+
+    .reasons {
+      display: flex;
+      gap: 123px;
+
+      .reasons__item {
+        width: 290px;
+
+        .reasons__icon-container {
+          width: 70px;
+          height: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 30px;
+          box-shadow: 0px 4px 25px rgba(234, 93, 187, 0.25);
+          background: $pink;
+          border-radius: 15px;
+        }
+
+        .reasons__icon {
+          width: 48px;
+          height: 48px;
+        }
+
+        .reasons__caption {
+          @include font-settings(normal, 600, 24px, 150%);
+          margin-bottom: 15px;
+        }
+
+        .reasons__description {
+          @include font-settings(normal, 400, 18px, 160%);
+        }
+      }
+    }
+  }
+}
+
+@import "./adaptive.scss";

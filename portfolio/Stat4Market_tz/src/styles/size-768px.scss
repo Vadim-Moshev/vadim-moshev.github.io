@@ -1,0 +1,168 @@
+@media (max-width: 1279px) {
+  body {
+    background: none;
+  }
+
+  .wrapper {
+    // max-width: 100%;
+    // padding: 17px 15px 0;
+    max-width: calc(100% - 30px);
+
+    .header {
+      height: 80px;
+      margin-bottom: 46px;
+
+      .header__logo {
+        width: 47px;
+        height: 19px;
+      }
+
+      .header__stat4market {
+        margin-left: 10px;
+        height: 19px;
+      }
+
+      .header__divider {
+        margin-left: 14px;
+      }
+
+      .header__site-description {
+        @include font-settings(normal, 400, 10px, 14px);
+      }
+
+      .header__menu,
+      .header__phone {
+        display: none;
+      }
+
+      .header__login-button {
+        margin-left: 50px;
+
+        .header__button-caption {
+          @include font-settings(normal, 500, 20px, 35px);
+        }
+      }
+
+      .header__burger-menu {
+        display: initial;
+        margin-left: 79px;
+        border: none;
+        background: none;
+        width: 42px;
+        height: 28px;
+
+        .header__burger-ico {
+          width: 42px;
+          height: 28px;
+        }
+      }
+    }
+
+    .page-section {
+      margin-bottom: 65px;
+
+      .page-section__h1,
+      .page-section__h1--shrink-width {
+        @include font-settings(normal, 700, 45px, 65px);
+        margin-bottom: 40px;
+      }
+
+      .page-section__h1--shrink-width {
+        width: auto;
+        margin-bottom: 18px;
+      }
+
+      .page-section__course-price {
+        margin-bottom: 17px;
+      }
+
+      .page-section__about-courses {
+        width: auto;
+        padding-right: 295px;
+      }
+
+      .page-section__superman {
+        background-image: url("../img/superman-without-stars.png");
+        background-image: url("../img/superman-without-stars.webp");
+        width: 410px;
+        height: 410px;
+        top: 150px;
+        right: -183px;
+      }
+
+      .page-section__h2--narrow,
+      .page-section__h2-sales-study {
+        width: 626px;
+      }
+
+      .page-section__h2-sales-study {
+        margin-bottom: 22px;
+      }
+
+      .page-section__study-thesis {
+        @include font-settings(normal, 400, 20px, 160%);
+        width: 650px;
+      }
+
+      .page-section__narrow-part {
+        width: auto;
+
+        .page-section__narrow-part-row {
+          display: flex;
+          align-items: center;
+
+          &:first-child {
+            margin-bottom: 60px;
+          }
+
+          .page-section__tablet {
+            width: 270px;
+            height: 277px;
+            background-position: center;
+          }
+
+          .page-section__notebook {
+            width: 270px;
+            height: 270px;
+            background-position: center;
+          }
+
+          .page-section__regular-text,
+          .page-section__regular-text--narrow {
+            @include font-settings(normal, 400, 20px, 160%);
+          }
+
+          .page-section__regular-text--narrow {
+            // width: 428px;
+            // width: auto;
+          }
+        }
+      }
+
+      .reasons {
+        width: 570px;
+        margin: 0 auto;
+        gap: 60px;
+        flex-wrap: wrap;
+
+        .reasons__item {
+          width: 255px;
+
+          .reasons__icon-container {
+            width: 60px;
+            height: 60px;
+          }
+
+          .reasons__caption {
+            @include font-settings(normal, 600, 20px, 150%);
+            margin-bottom: 10px;
+          }
+
+          .reasons__description {
+            @include font-settings(normal, 400, 16px, 160%);
+          }
+        }
+      }
+    }
+  }
+}

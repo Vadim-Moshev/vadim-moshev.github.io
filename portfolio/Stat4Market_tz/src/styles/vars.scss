@@ -1,0 +1,24 @@
+// colors
+$main-black: #331a2f;
+$pink: #cf51ce;
+
+// mixins
+@mixin contain-no-repeat {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@mixin font-settings($style, $weight, $size, $line-height) {
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line-height;
+}
+
+@mixin transition-color {
+  transition: color 0.2s linear, fill 0.2s linear;
+  &:hover {
+    color: $pink;
+    fill: $pink;
+  }
+}
