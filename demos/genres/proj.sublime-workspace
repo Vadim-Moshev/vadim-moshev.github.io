@@ -1,0 +1,384 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"dir",
+				"flex-direction"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"poi",
+				"pointer-events"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"line",
+				"linear-gradient()"
+			],
+			[
+				"si",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fd",
+				"flex-direction"
+			],
+			[
+				"dire",
+				"flex-direction"
+			],
+			[
+				"ge",
+				"genitive"
+			],
+			[
+				"in",
+				"inRangeOf"
+			],
+			[
+				"user",
+				"userName"
+			],
+			[
+				"d",
+				"flex-direction"
+			],
+			[
+				"us",
+				"userAge"
+			],
+			[
+				"use",
+				"userName"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"u",
+				"userData"
+			],
+			[
+				"ch",
+				"childName"
+			],
+			[
+				"chi",
+				"childIndex"
+			],
+			[
+				"che",
+				"childIndex"
+			],
+			[
+				"childrenCo",
+				"childrenCount"
+			],
+			[
+				"di",
+				"flex-direction"
+			],
+			[
+				"fle",
+				"flex-grow"
+			],
+			[
+				"bg",
+				"background"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"ca",
+				"caption"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"st",
+				"stretch"
+			],
+			[
+				"alig",
+				"align-content"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"for",
+				"JsPrettier: Format Code"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/genres/m"
+	],
+	"file_history":
+	[
+		"/D/genres/m/styles/main.css",
+		"/D/genres/m/styles/vars.css",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/index.html",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/pages/live/live.html",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/pages/live/genre-template/genre-name.html",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/pages/electronic/electronic.html",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/pages/electronic/genre-template/genre-name.html",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/styles/index.css",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/styles/header.css",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/styles/footer.css",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/pages/index.html",
+		"/C/Users/Vadim/AppData/Roaming/Sublime Text/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/sync/фриланс/2023/STUDWORK/191abc (антон)/Мультимедиа ресурс/styles/fonts.css",
+		"/D/Вадим/фриланс/2022/Глеб Антагон/antagon/styles/index.css",
+		"/D/alef-tz/src/App.css",
+		"/D/alef-tz/src/App.vue",
+		"/D/alef-tz/src/views/FormView/FormView.vue",
+		"/D/alef-tz/src/components/ChildBlock/ChildBlock.vue",
+		"/D/alef-tz/src/views/FormView/FormView.css",
+		"/D/alef-tz/src/components/TextField/TextField.vue",
+		"/D/alef-tz/src/components/TextField/TextField.css",
+		"/D/vue-shop/src/views/MakeOrder.vue",
+		"/D/alef-tz/src/views/ChildrenTableView/ChildrenTableView.vue",
+		"/D/alef-tz/src/views/ChildrenTableView/ChildrenTableView.css",
+		"/D/alef-tz/src/utils/inclineYears.js",
+		"/D/alef-tz/src/components/ChildBlock/ChildBlock.css",
+		"/D/alef-tz/src/components/SimpleButton/SimpleButton.vue",
+		"/D/alef-tz/src/assets/cross.svg",
+		"/D/alef-tz/src/components/SimpleButton/SimpleButton.css",
+		"/D/alef-tz/src/components/ViewHeader/ViewHeader.css",
+		"/D/alef-tz/src/components/ViewHeader/ViewHeader.vue",
+		"/D/alef-tz/src/components/HeaderNav/HeaderNav.css",
+		"/D/alef-tz/src/components/HeaderNav/HeaderNav.vue",
+		"/D/alef-tz/src/router/index.js",
+		"/D/alef-tz/src/components/HeaderNav/HeaderNav.js",
+		"/D/alef-tz/src/components/nav/nav.css",
+		"/D/alef-tz/src/components/nav/nav.vue",
+		"/D/vue-shop/src/App.vue",
+		"/D/alef-tz/README.md",
+		"/D/alef-tz/jsconfig.json",
+		"/D/YandexDisk/НЕСИНХРОНИЗИРОВАННАЯ ПАПКА/конифги саблайма.json",
+		"/D/alef-tz/babel.config.js"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"electronic",
+			"browse",
+			" ;",
+			"=\"\">",
+			"removeChild",
+			"input[type=\"number\"]",
+			"userDataString",
+			"name",
+			"userName",
+			"f",
+			"removeChild",
+			"TextField",
+			"12",
+			"TextField",
+			"ViewHeader",
+			"FormView"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "proj.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

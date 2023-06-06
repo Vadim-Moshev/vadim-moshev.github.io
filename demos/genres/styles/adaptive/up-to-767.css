@@ -1,0 +1,130 @@
+@media (max-width: 767px) {
+  :root {
+    --burger-container-padding: 10px;
+    --burger-container-height: 20px;
+    --global-padding-top: calc(var(--burger-container-height) + 2*var(--burger-container-padding));
+
+    --header-top-part-height: 50px;
+
+
+    --header-big-caption-font-size: 15px;
+    --header-small-caption-font-size: 15px;
+
+    --central-part-width: 720px;
+    --font-size-h1: 24px;
+    --font-size-h2: 20px;
+    --tile-gap: 10px;
+    --tile-width: 350px;
+    --tile-height: 100px;
+
+    --performer-example-width: 180px;
+    --performer-example-height: 180px;
+  }
+
+  .global {
+    padding-top: var(--global-padding-top);
+  }
+
+  .header__background-filter {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+
+
+
+  .header__burger-container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--burger-container-height);
+    padding: var(--burger-container-padding);
+    padding-left: 0;
+    background: linear-gradient(to top, var(--blue-2), var(--blue-5));
+    z-index: 3;
+  }
+
+  .header__burger-button {
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    gap: 3px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .header__burger-button i {
+    height: 2px;
+    background-color: #fff;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__hidden-checkbox:checked + .header__nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: var(--global-padding-top);
+    z-index: 3;
+  }
+
+  .header__close-menu {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 5px;
+    top: 16px;
+    padding: 10px;
+    cursor: pointer;
+
+
+  }
+
+  .header__close-menu:before,
+  .header__close-menu:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: inherit;
+    height: 2px;
+  }
+
+  .header__close-menu:before {
+    transform: rotateZ(45deg);
+  }
+
+    .header__close-menu:after {
+    transform: rotateZ(-45deg);
+  }
+
+  .site-section__central {
+    width: auto;
+  }
+
+  .site-section__breadcrumbs {
+    font-size: 12px;
+    gap: 5px;
+
+  }
+
+  .site-section__medias-container {
+   flex-direction: column;
+  }
+
+  .footer {
+    padding: 6px 0;
+    color: #fff;
+    font-size: 12px;
+  }
+
+}

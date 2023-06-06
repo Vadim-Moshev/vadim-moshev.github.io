@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница — Мои любимые стили музыки</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <div class="global">
+    <header class="header">
+      <div class="header__top-part">
+        <div class="header__background-filter">
+          <p class="header__small-caption">Сайт</p>
+          <p class="header__big-caption">«Мои любимые стили музыки»</p>
+        </div>
+      </div>
+      <div class="header__burger-container">
+        <label for="shownav" class="header__burger-button">
+          <i></i>
+          <i></i>
+          <i></i>
+        </label>
+      </div>
+      <input class="header__hidden-checkbox" id="shownav" type="checkbox">
+      <nav class="header__nav">
+        <label for="shownav" class="header__close-menu"></label>
+        <span class="header__nav-link-active">Главная</span>
+        <a href="pages/electronic/electronic.html" class="header__nav-link">Электронная музыка</a>
+        <a href="pages/live/live.html" class="header__nav-link">Живая музыка</a>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="background-holder index-page"></div>
+      <section class="site-section">
+        <div class="site-section__central">
+          <h1 class="site-section__h1">Добро пожаловать</h1>
+          <p class="site-section__text">На этом сайте я расскажу о музыкальных стилях, которые я предпочитаю слушать. Среди моих предпочтений есть как и «живая» музыка, так и электронная. Далее я буду отождествлять термины «жанр» и «стиль».</p>
+          <p class="site-section__text">На странице каждой из категорий будет её описание, после чего будет дан список ссылок на описание каждого жанра, принадлежащего той или иной категории. В рамках рассказа о каждом жанре я дам его описание, приведу краткий список характерных исполнителей, работающих в данном стиле, постараюсь перечислить ситуации, для которых подходит прослушивание того или иного жанра, поделюсь ссылками на сообщества, посвящённые рассматриваемому жанру, а также приведу несколько примеров композиций в описываемом жанре.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">«Мои любимые стили музыки» © 2023.</footer>
+  </div>
+</body>
+</html>

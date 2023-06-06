@@ -1,0 +1,14 @@
+@media (min-width: 960px) and (max-width: 1279px) {
+
+  :root {
+    --header-big-caption-font-size: 46px;
+    --central-part-width: 960px;
+    --tile-gap: 10px;
+    --tile-width: 350px;
+    --tile-height: 100px;
+
+    --performer-example-width: 250px;
+    --performer-example-height: 230px;
+  }
+
+}
