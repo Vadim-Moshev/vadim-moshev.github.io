@@ -1,0 +1,11 @@
+.loader,
+.error-message,
+.no-data-message {
+  display: none;
+}
+
+.loader-visible,
+.error-message-visible,
+.no-data-message-visible {
+  display: block;
+}
